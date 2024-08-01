@@ -1,5 +1,7 @@
 
 import 'package:flutter/material.dart';
+import 'package:frontend/Screen/login_screen.dart';
+import 'package:frontend/Screen/signup_screen.dart';
 
 import 'package:frontend/Utils/colors.dart';
 
@@ -101,7 +103,7 @@ class MySplashScreen extends StatelessWidget {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => const Register(),
+                                      builder: (context) => const SignUp(),
                                     ),
                                   );
                                 },
@@ -122,7 +124,7 @@ class MySplashScreen extends StatelessWidget {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => const SignIn(),
+                                      builder: (context) => const LogIn(),
                                     ),
                                   );
                                 },
