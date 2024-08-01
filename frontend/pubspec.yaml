@@ -31,6 +31,8 @@ dependencies:
   flutter:
     sdk: flutter
     
+    
+  shared_preferences: ^2.0.15  
   google_sign_in: ^6.1.6
   cloud_firestore: ^4.13.1
   the_apple_sign_in: ^1.1.1
@@ -43,7 +45,7 @@ dependencies:
   flutter_riverpod: ^2.3.7
   ionicons: ^0.2.2
   image_picker: ^1.1.2
-  shared_preferences: ^2.2.3
+
 
 dev_dependencies:
   flutter_test:

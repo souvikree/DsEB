@@ -67,12 +67,12 @@ class HomeScreen extends ConsumerWidget {
               size: 100,
             ),
           ),
-          // Center(
-          //   child: Icon(
-          //     Icons.add,
-          //     size: 100,
-          //   ),
-          // ),
+          Center(
+            child: Icon(
+              Icons.add,
+              size: 100,
+            ),
+          ),
           Center(
             child: Icon(
               Icons.report_problem_rounded,
@@ -128,10 +128,10 @@ class CustomBottomNavigationBar extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           _buildNavItem(Icons.home_outlined, 'Home', 0),
-          _buildNavItem(Icons.settings_outlined, 'Settings', 1),
-          // _buildNavItem(Icons.add_circle_outline_outlined, 'Predict', 2),
-          _buildNavItem(Icons.report_problem_outlined, 'Reports', 2),
-          _buildNavItem(Icons.person_2_outlined, 'Profile', 3),
+          _buildNavItem(Icons.report_problem_outlined, 'Reports', 1),
+          _buildNavItem(Icons.explore_outlined, 'Map', 2),
+          _buildNavItem(Icons.bug_report_outlined, 'Issues', 3),
+          _buildNavItem(Icons.person_2_outlined, 'Profile', 4),
         ],
       ),
     );
