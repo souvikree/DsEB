@@ -69,7 +69,7 @@ class HomeScreen extends ConsumerWidget {
           ),
           Center(
             child: Icon(
-              Icons.add,
+              Icons.explore_outlined,
               size: 100,
             ),
           ),
@@ -85,6 +85,7 @@ class HomeScreen extends ConsumerWidget {
               size: 100,
             ),
           )
+          
         ],
       ),
       bottomNavigationBar: CustomBottomNavigationBar(

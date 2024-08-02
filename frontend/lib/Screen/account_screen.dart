@@ -34,7 +34,7 @@ class _AccountScreenState extends State<AccountScreen> {
 
     try {
       final response = await http.post(
-        Uri.parse('http://192.168.0.130:4000/api/driver/logout'),
+        Uri.parse('http://192.168.0.129:4000/api/driver/logout'),
         headers: {
           'Authorization': 'Bearer $token',
         },
@@ -131,7 +131,7 @@ class _AccountScreenState extends State<AccountScreen> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const EditAccountScreen(),
+                            builder: (context) => const EditAccountScreen(), 
                           ),
                         );
                       },
