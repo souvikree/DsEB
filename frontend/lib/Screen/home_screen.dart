@@ -19,7 +19,7 @@ class HomeScreen extends ConsumerWidget {
       appBar: AppBar(
         backgroundColor: const Color(0xFF4B39EF),
         title: const Text(
-          'DriversEB',
+          'DsEB',
           style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
